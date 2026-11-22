@@ -1,0 +1,8 @@
+upstream : OpenCE 307a42ee04ba58ccafbc231353629e67476af5cd
+wabt     : 4fbd7198c766e3d450edfe3847ff6f45f360e078
+date     : 2026-11-22T17:31:41Z
+Xcode 16.4 Build version 16F6 
+guest    : 21062014 bytes of wasm
+ipa      : 17065061 bytes
+ipa (SE) : 19211941 bytes
+/Users/runner/work/haloce-ios/haloce-ios/build/payload-HaloCE/Payload/HaloCE.app/HaloCE: Mach-O 64-bit executable arm64

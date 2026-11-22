@@ -1,0 +1,583 @@
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:873:35: note: 'glLineWidth' has been explicitly marked deprecated here
+  873 | GL_API void           GL_APIENTRY glLineWidth (GLfloat width) OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/build/w2c-se/ios_imports.c:1171:2: warning: 'glLinkProgram' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+ 1171 |         glLinkProgram((GLuint)a0);
+      |         ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:874:35: note: 'glLinkProgram' has been explicitly marked deprecated here
+  874 | GL_API void           GL_APIENTRY glLinkProgram (GLuint program)   OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/build/w2c-se/ios_imports.c:1184:2: warning: 'glPixelStorei' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+ 1184 |         glPixelStorei((GLenum)a0, (GLint)a1);
+      |         ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:875:35: note: 'glPixelStorei' has been explicitly marked deprecated here
+  875 | GL_API void           GL_APIENTRY glPixelStorei (GLenum pname, GLint param) OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/build/w2c-se/ios_imports.c:1190:2: warning: 'glPolygonOffset' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+ 1190 |         glPolygonOffset((GLfloat)a0, (GLfloat)a1);
+      |         ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:876:35: note: 'glPolygonOffset' has been explicitly marked deprecated here
+  876 | GL_API void           GL_APIENTRY glPolygonOffset (GLfloat factor, GLfloat units) OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/build/w2c-se/ios_imports.c:1196:2: warning: 'glReadBuffer' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+ 1196 |         glReadBuffer((GLenum)a0);
+      |         ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:930:35: note: 'glReadBuffer' has been explicitly marked deprecated here
+  930 | GL_API void           GL_APIENTRY glReadBuffer (GLenum mode)   OPENGLES_DEPRECATED(ios(7.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/build/w2c-se/ios_imports.c:1202:2: warning: 'glReadPixels' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+ 1202 |         glReadPixels((GLint)a0, (GLint)a1, (GLsizei)a2, (GLsizei)a3, (GLenum)a4, (GLenum)a5, (void *)GP(a6));
+      |         ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:877:35: note: 'glReadPixels' has been explicitly marked deprecated here
+  877 | GL_API void           GL_APIENTRY glReadPixels (GLint x, GLint y, GLsizei width, GLsizei height, GLenum format, GLenum type, GLvoid* pixels) OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/build/w2c-se/ios_imports.c:1208:2: warning: 'glRenderbufferStorageMultisample' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+ 1208 |         glRenderbufferStorageMultisample((GLenum)a0, (GLsizei)a1, (GLenum)a2, (GLsizei)a3, (GLsizei)a4);
+      |         ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:954:35: note: 'glRenderbufferStorageMultisample' has been explicitly marked deprecated here
+  954 | GL_API void           GL_APIENTRY glRenderbufferStorageMultisample (GLenum target, GLsizei samples, GLenum internalformat, GLsizei width, GLsizei height)   OPENGLES_DEPRECATED(ios(7.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/build/w2c-se/ios_imports.c:1214:2: warning: 'glSamplerParameterf' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+ 1214 |         glSamplerParameterf((GLuint)a0, (GLenum)a1, (GLfloat)a2);
+      |         ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:1015:35: note: 'glSamplerParameterf' has been explicitly marked deprecated here
+ 1015 | GL_API void           GL_APIENTRY glSamplerParameterf (GLuint sampler, GLenum pname, GLfloat param)   OPENGLES_DEPRECATED(ios(7.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/build/w2c-se/ios_imports.c:1220:2: warning: 'glSamplerParameterfv' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+ 1220 |         glSamplerParameterfv((GLuint)a0, (GLenum)a1, (const GLfloat *)GP(a2));
+      |         ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:1016:35: note: 'glSamplerParameterfv' has been explicitly marked deprecated here
+ 1016 | GL_API void           GL_APIENTRY glSamplerParameterfv (GLuint sampler, GLenum pname, const GLfloat* param)   OPENGLES_DEPRECATED(ios(7.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/build/w2c-se/ios_imports.c:1226:2: warning: 'glSamplerParameteri' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+ 1226 |         glSamplerParameteri((GLuint)a0, (GLenum)a1, (GLint)a2);
+      |         ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:1013:35: note: 'glSamplerParameteri' has been explicitly marked deprecated here
+ 1013 | GL_API void           GL_APIENTRY glSamplerParameteri (GLuint sampler, GLenum pname, GLint param)   OPENGLES_DEPRECATED(ios(7.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/build/w2c-se/ios_imports.c:1232:2: warning: 'glScissor' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+ 1232 |         glScissor((GLint)a0, (GLint)a1, (GLsizei)a2, (GLsizei)a3);
+      |         ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:881:35: note: 'glScissor' has been explicitly marked deprecated here
+  881 | GL_API void           GL_APIENTRY glScissor (GLint x, GLint y, GLsizei width, GLsizei height) OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/build/w2c-se/ios_imports.c:1244:2: warning: 'glShaderSource' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+ 1244 |         glShaderSource((GLuint)a0, count, strings, (const GLint *)GP(a3));
+      |         ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:883:35: note: 'glShaderSource' has been explicitly marked deprecated here
+  883 | GL_API void           GL_APIENTRY glShaderSource (GLuint shader, GLsizei count, const GLchar* const *string, const GLint* length)   OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/build/w2c-se/ios_imports.c:1250:2: warning: 'glStencilFunc' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+ 1250 |         glStencilFunc((GLenum)a0, (GLint)a1, (GLuint)a2);
+      |         ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:884:35: note: 'glStencilFunc' has been explicitly marked deprecated here
+  884 | GL_API void           GL_APIENTRY glStencilFunc (GLenum func, GLint ref, GLuint mask) OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/build/w2c-se/ios_imports.c:1256:2: warning: 'glStencilMask' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+ 1256 |         glStencilMask((GLuint)a0);
+      |         ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:886:35: note: 'glStencilMask' has been explicitly marked deprecated here
+  886 | GL_API void           GL_APIENTRY glStencilMask (GLuint mask) OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/build/w2c-se/ios_imports.c:1262:2: warning: 'glStencilOp' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+ 1262 |         glStencilOp((GLenum)a0, (GLenum)a1, (GLenum)a2);
+      |         ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:888:35: note: 'glStencilOp' has been explicitly marked deprecated here
+  888 | GL_API void           GL_APIENTRY glStencilOp (GLenum fail, GLenum zfail, GLenum zpass) OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/build/w2c-se/ios_imports.c:1268:2: warning: 'glTexImage2D' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+ 1268 |         glTexImage2D((GLenum)a0, (GLint)a1, (GLint)a2, (GLsizei)a3, (GLsizei)a4, (GLint)a5, (GLenum)a6, (GLenum)a7, (const void *)GP((uint32_t)a8));
+      |         ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:890:35: note: 'glTexImage2D' has been explicitly marked deprecated here
+  890 | GL_API void           GL_APIENTRY glTexImage2D (GLenum target, GLint level, GLint internalformat, GLsizei width, GLsizei height, GLint border, GLenum format, GLenum type, const GLvoid* pixels) OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/build/w2c-se/ios_imports.c:1274:2: warning: 'glTexImage3D' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+ 1274 |         glTexImage3D((GLenum)a0, (GLint)a1, (GLint)a2, (GLsizei)a3, (GLsizei)a4, (GLsizei)a5, (GLint)a6, (GLenum)a7, (long long)a8, (const void *)GP((uint32_t)a9));
+      |         ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:932:35: note: 'glTexImage3D' has been explicitly marked deprecated here
+  932 | GL_API void           GL_APIENTRY glTexImage3D (GLenum target, GLint level, GLint internalformat, GLsizei width, GLsizei height, GLsizei depth, GLint border, GLenum format, GLenum type, const GLvoid* pixels)   OPENGLES_DEPRECATED(ios(7.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/build/w2c-se/ios_imports.c:1280:2: warning: 'glTexParameterf' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+ 1280 |         glTexParameterf((GLenum)a0, (GLenum)a1, (GLfloat)a2);
+      |         ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:891:35: note: 'glTexParameterf' has been explicitly marked deprecated here
+  891 | GL_API void           GL_APIENTRY glTexParameterf (GLenum target, GLenum pname, GLfloat param) OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/build/w2c-se/ios_imports.c:1286:2: warning: 'glTexParameterfv' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+ 1286 |         glTexParameterfv((GLenum)a0, (GLenum)a1, (const GLfloat *)GP(a2));
+      |         ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:892:35: note: 'glTexParameterfv' has been explicitly marked deprecated here
+  892 | GL_API void           GL_APIENTRY glTexParameterfv (GLenum target, GLenum pname, const GLfloat* params) OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/build/w2c-se/ios_imports.c:1292:2: warning: 'glTexParameteri' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+ 1292 |         glTexParameteri((GLenum)a0, (GLenum)a1, (GLint)a2);
+      |         ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:893:35: note: 'glTexParameteri' has been explicitly marked deprecated here
+  893 | GL_API void           GL_APIENTRY glTexParameteri (GLenum target, GLenum pname, GLint param) OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/build/w2c-se/ios_imports.c:1298:2: warning: 'glTexParameteriv' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+ 1298 |         glTexParameteriv((GLenum)a0, (GLenum)a1, (const GLint *)GP(a2));
+      |         ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:894:35: note: 'glTexParameteriv' has been explicitly marked deprecated here
+  894 | GL_API void           GL_APIENTRY glTexParameteriv (GLenum target, GLenum pname, const GLint* params) OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/build/w2c-se/ios_imports.c:1304:2: warning: 'glTexSubImage2D' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+ 1304 |         glTexSubImage2D((GLenum)a0, (GLint)a1, (GLint)a2, (GLint)a3, (GLsizei)a4, (GLsizei)a5, (GLenum)a6, (GLenum)a7, (const void *)GP((uint32_t)a8));
+      |         ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:895:35: note: 'glTexSubImage2D' has been explicitly marked deprecated here
+  895 | GL_API void           GL_APIENTRY glTexSubImage2D (GLenum target, GLint level, GLint xoffset, GLint yoffset, GLsizei width, GLsizei height, GLenum format, GLenum type, const GLvoid* pixels) OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/build/w2c-se/ios_imports.c:1310:2: warning: 'glUniform1f' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+ 1310 |         glUniform1f((GLint)a0, (GLfloat)a1);
+      |         ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:896:35: note: 'glUniform1f' has been explicitly marked deprecated here
+  896 | GL_API void           GL_APIENTRY glUniform1f (GLint location, GLfloat x)   OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/build/w2c-se/ios_imports.c:1316:2: warning: 'glUniform1i' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+ 1316 |         glUniform1i((GLint)a0, (GLint)a1);
+      |         ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:898:35: note: 'glUniform1i' has been explicitly marked deprecated here
+  898 | GL_API void           GL_APIENTRY glUniform1i (GLint location, GLint x)   OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/build/w2c-se/ios_imports.c:1322:2: warning: 'glUniform1iv' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+ 1322 |         glUniform1iv((GLint)a0, (GLsizei)a1, (const GLint *)GP(a2));
+      |         ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:899:35: note: 'glUniform1iv' has been explicitly marked deprecated here
+  899 | GL_API void           GL_APIENTRY glUniform1iv (GLint location, GLsizei count, const GLint* v)   OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/build/w2c-se/ios_imports.c:1328:2: warning: 'glUniform2f' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+ 1328 |         glUniform2f((GLint)a0, (GLfloat)a1, (GLfloat)a2);
+      |         ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:900:35: note: 'glUniform2f' has been explicitly marked deprecated here
+  900 | GL_API void           GL_APIENTRY glUniform2f (GLint location, GLfloat x, GLfloat y)   OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/build/w2c-se/ios_imports.c:1334:2: warning: 'glUniform4fv' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+ 1334 |         glUniform4fv((GLint)a0, (GLsizei)a1, (const GLfloat *)GP(a2));
+      |         ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:909:35: note: 'glUniform4fv' has been explicitly marked deprecated here
+  909 | GL_API void           GL_APIENTRY glUniform4fv (GLint location, GLsizei count, const GLfloat* v)   OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/build/w2c-se/ios_imports.c:1340:2: warning: 'glUseProgram' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+ 1340 |         glUseProgram((GLuint)a0);
+      |         ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:915:35: note: 'glUseProgram' has been explicitly marked deprecated here
+  915 | GL_API void           GL_APIENTRY glUseProgram (GLuint program)   OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/build/w2c-se/ios_imports.c:1346:2: warning: 'glVertexAttrib4fv' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+ 1346 |         glVertexAttrib4fv((GLuint)a0, (const GLfloat *)GP(a1));
+      |         ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:924:35: note: 'glVertexAttrib4fv' has been explicitly marked deprecated here
+  924 | GL_API void           GL_APIENTRY glVertexAttrib4fv (GLuint indx, const GLfloat* values)   OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/build/w2c-se/ios_imports.c:1352:2: warning: 'glVertexAttribI4ui' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+ 1352 |         glVertexAttribI4ui((GLuint)a0, (GLuint)a1, (GLuint)a2, (GLuint)a3, (GLuint)a4);
+      |         ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:973:35: note: 'glVertexAttribI4ui' has been explicitly marked deprecated here
+  973 | GL_API void           GL_APIENTRY glVertexAttribI4ui (GLuint index, GLuint x, GLuint y, GLuint z, GLuint w)   OPENGLES_DEPRECATED(ios(7.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/build/w2c-se/ios_imports.c:1358:2: warning: 'glVertexAttribIPointer' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+ 1358 |         glVertexAttribIPointer((GLuint)a0, (GLint)a1, (GLenum)a2, (GLsizei)a3, (const void *)(uintptr_t)a4);
+      |         ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:969:35: note: 'glVertexAttribIPointer' has been explicitly marked deprecated here
+  969 | GL_API void           GL_APIENTRY glVertexAttribIPointer (GLuint index, GLint size, GLenum type, GLsizei stride, const GLvoid* pointer)   OPENGLES_DEPRECATED(ios(7.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/build/w2c-se/ios_imports.c:1364:2: warning: 'glVertexAttribPointer' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+ 1364 |         glVertexAttribPointer((GLuint)a0, (GLint)a1, (GLenum)a2, (GLboolean)a3, (GLsizei)a4, (const void *)(uintptr_t)a5);
+      |         ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:925:35: note: 'glVertexAttribPointer' has been explicitly marked deprecated here
+  925 | GL_API void           GL_APIENTRY glVertexAttribPointer (GLuint indx, GLint size, GLenum type, GLboolean normalized, GLsizei stride, const GLvoid* ptr)   OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/build/w2c-se/ios_imports.c:1370:2: warning: 'glViewport' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+ 1370 |         glViewport((GLint)a0, (GLint)a1, (GLsizei)a2, (GLsizei)a3);
+      |         ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:926:35: note: 'glViewport' has been explicitly marked deprecated here
+  926 | GL_API void           GL_APIENTRY glViewport (GLint x, GLint y, GLsizei width, GLsizei height) OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+101 warnings generated.
+[34/48] CC /Users/runner/work/haloce-ios/haloce-ios/build/ios-HaloCE-SE/obj/host_host_gl.c.o
+/Users/runner/work/haloce-ios/haloce-ios/ios/host/host_gl.c:36:37: warning: 'glGetStringi' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+   36 |         const GLubyte *text = index >= 0 ? glGetStringi(name, (GLuint)index) : glGetString(name);
+      |                                            ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:990:35: note: 'glGetStringi' has been explicitly marked deprecated here
+  990 | GL_API const GLubyte* GL_APIENTRY glGetStringi (GLenum name, GLuint index)   OPENGLES_DEPRECATED(ios(7.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/ios/host/host_gl.c:36:73: warning: 'glGetString' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+   36 |         const GLubyte *text = index >= 0 ? glGetStringi(name, (GLuint)index) : glGetString(name);
+      |                                                                                ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:856:35: note: 'glGetString' has been explicitly marked deprecated here
+  856 | GL_API const GLubyte* GL_APIENTRY glGetString (GLenum name) OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/ios/host/host_gl.c:52:2: warning: 'glGetIntegerv' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+   52 |         glGetIntegerv(GL_NUM_EXTENSIONS, &count);
+      |         ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:848:35: note: 'glGetIntegerv' has been explicitly marked deprecated here
+  848 | GL_API void           GL_APIENTRY glGetIntegerv (GLenum pname, GLint* params) OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/ios/host/host_gl.c:55:41: warning: 'glGetStringi' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+   55 |                 const char *extension = (const char *)glGetStringi(GL_EXTENSIONS, (GLuint)index);
+      |                                                       ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:990:35: note: 'glGetStringi' has been explicitly marked deprecated here
+  990 | GL_API const GLubyte* GL_APIENTRY glGetStringi (GLenum name, GLuint index)   OPENGLES_DEPRECATED(ios(7.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/ios/host/host_gl.c:71:2: warning: 'glBindBuffer' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+   71 |         glBindBuffer(GL_COPY_READ_BUFFER, buffer);
+      |         ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:788:35: note: 'glBindBuffer' has been explicitly marked deprecated here
+  788 | GL_API void           GL_APIENTRY glBindBuffer (GLenum target, GLuint buffer) OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/ios/host/host_gl.c:72:12: warning: 'glMapBufferRange' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+   72 |         mapping = glMapBufferRange(GL_COPY_READ_BUFFER, offset, size, GL_MAP_READ_BIT);
+      |                   ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:956:35: note: 'glMapBufferRange' has been explicitly marked deprecated here
+  956 | GL_API GLvoid*        GL_APIENTRY glMapBufferRange (GLenum target, GLintptr offset, GLsizeiptr length, GLbitfield access)   OPENGLES_DEPRECATED(ios(7.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/ios/host/host_gl.c:76:3: warning: 'glUnmapBuffer' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+   76 |                 glUnmapBuffer(GL_COPY_READ_BUFFER);
+      |                 ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:944:35: note: 'glUnmapBuffer' has been explicitly marked deprecated here
+  944 | GL_API GLboolean      GL_APIENTRY glUnmapBuffer (GLenum target)   OPENGLES_DEPRECATED(ios(7.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/ios/host/host_gl.c:82:2: warning: 'glBindBuffer' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+   82 |         glBindBuffer(GL_COPY_READ_BUFFER, 0);
+      |         ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:788:35: note: 'glBindBuffer' has been explicitly marked deprecated here
+  788 | GL_API void           GL_APIENTRY glBindBuffer (GLenum target, GLuint buffer) OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/ios/host/host_gl.c:103:2: warning: 'glFinish' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+  103 |         glFinish();
+      |         ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:829:35: note: 'glFinish' has been explicitly marked deprecated here
+  829 | GL_API void           GL_APIENTRY glFinish (void) OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/ios/host/host_gl.c:111:3: warning: 'glDeleteSync' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+  111 |                 glDeleteSync(frame_fences[slot]);
+      |                 ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:1002:35: note: 'glDeleteSync' has been explicitly marked deprecated here
+ 1002 | GL_API void           GL_APIENTRY glDeleteSync (GLsync sync)   OPENGLES_DEPRECATED(ios(7.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/ios/host/host_gl.c:112:23: warning: 'glFenceSync' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+  112 |         frame_fences[slot] = glFenceSync(GL_SYNC_GPU_COMMANDS_COMPLETE, 0);
+      |                              ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:1000:35: note: 'glFenceSync' has been explicitly marked deprecated here
+ 1000 | GL_API GLsync         GL_APIENTRY glFenceSync (GLenum condition, GLbitfield flags)   OPENGLES_DEPRECATED(ios(7.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/ios/host/host_gl.c:125:11: warning: 'glClientWaitSync' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+  125 |         status = glClientWaitSync(frame_fences[slot], GL_SYNC_FLUSH_COMMANDS_BIT, 1000000000ull);
+      |                  ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:1003:35: note: 'glClientWaitSync' has been explicitly marked deprecated here
+ 1003 | GL_API GLenum         GL_APIENTRY glClientWaitSync (GLsync sync, GLbitfield flags, GLuint64 timeout)   OPENGLES_DEPRECATED(ios(7.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/ios/host/host_gl.c:128:2: warning: 'glDeleteSync' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+  128 |         glDeleteSync(frame_fences[slot]);
+      |         ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:1002:35: note: 'glDeleteSync' has been explicitly marked deprecated here
+ 1002 | GL_API void           GL_APIENTRY glDeleteSync (GLsync sync)   OPENGLES_DEPRECATED(ios(7.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/ios/host/host_gl.c:150:18: warning: 'glMapBufferRange' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+  150 |         void *mapping = glMapBufferRange(target, offset, size,
+      |                         ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:956:35: note: 'glMapBufferRange' has been explicitly marked deprecated here
+  956 | GL_API GLvoid*        GL_APIENTRY glMapBufferRange (GLenum target, GLintptr offset, GLsizeiptr length, GLbitfield access)   OPENGLES_DEPRECATED(ios(7.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/ios/host/host_gl.c:155:3: warning: 'glBufferSubData' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+  155 |                 glBufferSubData(target, offset, size, data);
+      |                 ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:798:35: note: 'glBufferSubData' has been explicitly marked deprecated here
+  798 | GL_API void           GL_APIENTRY glBufferSubData (GLenum target, GLintptr offset, GLsizeiptr size, const GLvoid* data) OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/ios/host/host_gl.c:159:2: warning: 'glUnmapBuffer' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+  159 |         glUnmapBuffer(target);
+      |         ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:944:35: note: 'glUnmapBuffer' has been explicitly marked deprecated here
+  944 | GL_API GLboolean      GL_APIENTRY glUnmapBuffer (GLenum target)   OPENGLES_DEPRECATED(ios(7.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/ios/host/host_gl.c:178:3: warning: 'glGetIntegerv' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+  178 |                 glGetIntegerv(GL_FRAMEBUFFER_BINDING, &bound);
+      |                 ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:848:35: note: 'glGetIntegerv' has been explicitly marked deprecated here
+  848 | GL_API void           GL_APIENTRY glGetIntegerv (GLenum pname, GLint* params) OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/ios/host/host_gl.c:187:2: warning: 'glBindFramebuffer' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+  187 |         glBindFramebuffer(target, framebuffer ? framebuffer : default_framebuffer);
+      |         ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:789:35: note: 'glBindFramebuffer' has been explicitly marked deprecated here
+  789 | GL_API void           GL_APIENTRY glBindFramebuffer (GLenum target, GLuint framebuffer)   OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/ios/host/host_gl.c:192:2: warning: 'glGetIntegerv' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+  192 |         glGetIntegerv(name, data);
+      |         ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:848:35: note: 'glGetIntegerv' has been explicitly marked deprecated here
+  848 | GL_API void           GL_APIENTRY glGetIntegerv (GLenum pname, GLint* params) OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/ios/host/host_gl.c:219:2: warning: 'glGetIntegerv' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+  219 |         glGetIntegerv(GL_RENDERBUFFER_BINDING, &saved_renderbuffer);
+      |         ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:848:35: note: 'glGetIntegerv' has been explicitly marked deprecated here
+  848 | GL_API void           GL_APIENTRY glGetIntegerv (GLenum pname, GLint* params) OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/ios/host/host_gl.c:221:3: warning: 'glBindRenderbuffer' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+  221 |                 glBindRenderbuffer(GL_RENDERBUFFER, view_renderbuffer);
+      |                 ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:790:35: note: 'glBindRenderbuffer' has been explicitly marked deprecated here
+  790 | GL_API void           GL_APIENTRY glBindRenderbuffer (GLenum target, GLuint renderbuffer)   OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/ios/host/host_gl.c:226:26: warning: 'glGetError' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+  226 |                 GLenum status, error = glGetError();
+      |                                        ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:845:35: note: 'glGetError' has been explicitly marked deprecated here
+  845 | GL_API GLenum         GL_APIENTRY glGetError (void) OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/ios/host/host_gl.c:228:3: warning: 'glGetIntegerv' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+  228 |                 glGetIntegerv(GL_DRAW_FRAMEBUFFER_BINDING, &draw);
+      |                 ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:848:35: note: 'glGetIntegerv' has been explicitly marked deprecated here
+  848 | GL_API void           GL_APIENTRY glGetIntegerv (GLenum pname, GLint* params) OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/ios/host/host_gl.c:229:3: warning: 'glBindFramebuffer' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+  229 |                 glBindFramebuffer(GL_FRAMEBUFFER, default_framebuffer);
+      |                 ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:789:35: note: 'glBindFramebuffer' has been explicitly marked deprecated here
+  789 | GL_API void           GL_APIENTRY glBindFramebuffer (GLenum target, GLuint framebuffer)   OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/ios/host/host_gl.c:230:12: warning: 'glCheckFramebufferStatus' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+  230 |                 status = glCheckFramebufferStatus(GL_FRAMEBUFFER);
+      |                          ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:799:35: note: 'glCheckFramebufferStatus' has been explicitly marked deprecated here
+  799 | GL_API GLenum         GL_APIENTRY glCheckFramebufferStatus (GLenum target)   OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/ios/host/host_gl.c:231:3: warning: 'glGetRenderbufferParameteriv' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+  231 |                 glGetRenderbufferParameteriv(GL_RENDERBUFFER, GL_RENDERBUFFER_WIDTH, &width);
+      |                 ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:851:35: note: 'glGetRenderbufferParameteriv' has been explicitly marked deprecated here
+  851 | GL_API void           GL_APIENTRY glGetRenderbufferParameteriv (GLenum target, GLenum pname, GLint* params)   OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/ios/host/host_gl.c:232:3: warning: 'glGetRenderbufferParameteriv' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+  232 |                 glGetRenderbufferParameteriv(GL_RENDERBUFFER, GL_RENDERBUFFER_HEIGHT, &height);
+      |                 ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:851:35: note: 'glGetRenderbufferParameteriv' has been explicitly marked deprecated here
+  851 | GL_API void           GL_APIENTRY glGetRenderbufferParameteriv (GLenum target, GLenum pname, GLint* params)   OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/ios/host/host_gl.c:233:3: warning: 'glBindFramebuffer' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+  233 |                 glBindFramebuffer(GL_FRAMEBUFFER, (GLuint)draw);
+      |                 ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:789:35: note: 'glBindFramebuffer' has been explicitly marked deprecated here
+  789 | GL_API void           GL_APIENTRY glBindFramebuffer (GLenum target, GLuint framebuffer)   OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+/Users/runner/work/haloce-ios/haloce-ios/ios/host/host_gl.c:242:2: warning: 'glBindRenderbuffer' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+  242 |         glBindRenderbuffer(GL_RENDERBUFFER, (GLuint)saved_renderbuffer);
+      |         ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h:790:35: note: 'glBindRenderbuffer' has been explicitly marked deprecated here
+  790 | GL_API void           GL_APIENTRY glBindRenderbuffer (GLenum target, GLuint renderbuffer)   OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+      |                                   ^
+29 warnings generated.
+[35/48] CC /Users/runner/work/haloce-ios/haloce-ios/build/ios-HaloCE-SE/obj/host_host_misc.c.o
+[36/48] CC /Users/runner/work/haloce-ios/haloce-ios/build/ios-HaloCE-SE/obj/host_host_net.c.o
+[37/48] CC /Users/runner/work/haloce-ios/haloce-ios/build/ios-HaloCE-SE/obj/host_host_sdl.c.o
+[38/48] CC /Users/runner/work/haloce-ios/haloce-ios/build/ios-HaloCE-SE/obj/host_host_syscall.c.o
+[39/48] CC /Users/runner/work/haloce-ios/haloce-ios/build/ios-HaloCE-SE/obj/host_host_wasm.c.o
+[40/48] CC /Users/runner/work/haloce-ios/haloce-ios/build/ios-HaloCE-SE/obj/host_host_xiso.c.o
+[41/48] OBJC /Users/runner/work/haloce-ios/haloce-ios/build/ios-HaloCE-SE/obj/host_host_https.m.o
+[42/48] OBJC /Users/runner/work/haloce-ios/haloce-ios/build/ios-HaloCE-SE/obj/host_host_main.m.o
+[43/48] OBJC /Users/runner/work/haloce-ios/haloce-ios/build/ios-HaloCE-SE/obj/host_host_touch.m.o
+/Users/runner/work/haloce-ios/haloce-ios/ios/host/host_touch.m:881:9: warning: 'contentEdgeInsets' is deprecated: first deprecated in iOS 15.0 - This property is ignored when using UIButtonConfiguration [-Wdeprecated-declarations]
+  881 |         button.contentEdgeInsets = UIEdgeInsetsMake(7, 12, 7, 12);
+      |                ^
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:162:35: note: 'contentEdgeInsets' has been explicitly marked deprecated here
+  162 | @property(nonatomic) UIEdgeInsets contentEdgeInsets API_DEPRECATED("This property is ignored when using UIButtonConfiguration", ios(2.0,15.0), tvos(2.0,15.0), visionos(1.0, 1.0)) UI_APPEARANCE_SELECTOR API_UNAVAILABLE(watchos); // default is UIEdgeInsetsZero. On tvOS 10 or later, default is nonzero except for custom buttons.
+      |                                   ^
+1 warning generated.
+[44/48] CC /Users/runner/work/haloce-ios/haloce-ios/build/ios-HaloCE-SE/obj/host_host_watch_hash.c.o
+[45/48] CC /Users/runner/work/haloce-ios/haloce-ios/build/ios-HaloCE-SE/obj/src_posix_files.c.o
+[48/48] LINK /Users/runner/work/haloce-ios/haloce-ios/build/ios-HaloCE-SE/HaloCE
+== bundle: HaloCE-SE
+upstream : OpenCE 307a42ee04ba58ccafbc231353629e67476af5cd
+wabt     : 4fbd7198c766e3d450edfe3847ff6f45f360e078
+date     : 2026-11-22T17:31:41Z
+Xcode 16.4 Build version 16F6 
+guest    : 21062014 bytes of wasm
+ipa      : 17065061 bytes
+ipa (SE) : 19211941 bytes
+/Users/runner/work/haloce-ios/haloce-ios/build/payload-HaloCE/Payload/HaloCE.app/HaloCE: Mach-O 64-bit executable arm64
+=== build/guest.log
+[1694/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/third_party/opus/silk/float/scale_copy_vector_FLP.o.darwin.o
+[1695/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/third_party/opus/silk/float/sort_FLP.o.darwin.o
+[1696/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/third_party/opus/silk/float/schur_FLP.o.darwin.o
+[1697/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/third_party/opus/silk/float/pitch_analysis_core_FLP.o.darwin.o
+[1698/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/third_party/monocypher/monocypher-ed25519.o.darwin.o
+[1699/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/third_party/zlib/adler32.o.darwin.o
+[1700/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/third_party/zlib/crc32.o.darwin.o
+[1701/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/third_party/zlib/inffast.o.darwin.o
+[1702/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/third_party/zlib/inftrees.o.darwin.o
+[1703/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/third_party/zlib/uncompr.o.darwin.o
+[1704/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/third_party/zlib/zutil.o.darwin.o
+[1705/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/third_party/musl-math/src/__cos.o.darwin.o
+[1706/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/third_party/musl-math/src/__math_divzero.o.darwin.o
+[1707/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/third_party/zlib/inflate.o.darwin.o
+[1708/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/third_party/musl-math/src/__math_invalid.o.darwin.o
+[1709/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/third_party/musl-math/src/__math_oflow.o.darwin.o
+[1710/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/third_party/musl-math/src/__math_uflow.o.darwin.o
+[1711/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/third_party/musl-math/src/__math_xflow.o.darwin.o
+[1712/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/third_party/musl-math/src/__rem_pio2.o.darwin.o
+[1713/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/third_party/musl-math/src/__sin.o.darwin.o
+[1714/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/third_party/musl-math/src/__rem_pio2_large.o.darwin.o
+[1715/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/third_party/musl-math/src/__tan.o.darwin.o
+[1716/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/third_party/musl-math/src/acos.o.darwin.o
+[1717/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/third_party/musl-math/src/asin.o.darwin.o
+[1718/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/third_party/musl-math/src/atan.o.darwin.o
+[1719/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/third_party/musl-math/src/cos.o.darwin.o
+[1720/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/third_party/musl-math/src/atan2.o.darwin.o
+[1721/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/third_party/musl-math/src/exp.o.darwin.o
+[1722/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/third_party/musl-math/src/exp_data.o.darwin.o
+[1723/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/third_party/musl-math/src/log10.o.darwin.o
+[1724/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/third_party/musl-math/src/log.o.darwin.o
+[1725/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/third_party/monocypher/monocypher.o.darwin.o
+[1726/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/third_party/musl-math/src/log2_data.o.darwin.o
+[1727/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/third_party/musl-math/src/log2.o.darwin.o
+[1728/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/third_party/musl-math/src/log_data.o.darwin.o
+[1729/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/third_party/musl-math/src/pow_data.o.darwin.o
+[1730/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/third_party/musl-math/src/sin.o.darwin.o
+[1731/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/third_party/musl-math/src/pow.o.darwin.o
+[1732/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/third_party/musl-math/src/tan.o.darwin.o
+[1733/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/android/guest/runtime/guest_memory_watch.o.darwin.o
+[1734/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/android/guest/runtime/guest_misc.o.darwin.o
+[1735/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/android/guest/runtime/guest_render_policy.o.darwin.o
+[1736/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/android/guest/runtime/guest_string.o.darwin.o
+[1737/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/android/guest/runtime/guest_start.o.darwin.o
+[1738/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/android/guest/runtime/guest_sdl.o.darwin.o
+[1739/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/android/guest/runtime/guest_syscall.o.darwin.o
+[1740/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/port/android/guest/runtime/guest_thread.o.darwin.o
+/Users/runner/work/haloce-ios/haloce-ios/ios/guest/runtime/guest_thread_wasm.c:48:9: warning: 'DEFAULT_STACK_SIZE' macro redefined [-Wmacro-redefined]
+   48 | #define DEFAULT_STACK_SIZE (1024 * 1024)
+      |         ^
+build/android/third_party/musl-1.2.5/src/internal/pthread_impl.h:197:9: note: previous definition is here
+  197 | #define DEFAULT_STACK_SIZE 131072
+      |         ^
+1 warning generated.
+[1741/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/guest/gen/guest_posix.o.darwin.o
+[1742/1745] WASM AS /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/ios/guest_thread_entry.o
+[1743/1745] WASM CC /Users/runner/work/haloce-ios/haloce-ios/build/guest/obj/guest/gen/guest_gl.o.darwin.o
+[1744/1745] WASM AR /Users/runner/work/haloce-ios/haloce-ios/build/guest/libguestc.a
+[1745/1745] WASM LINK /Users/runner/work/haloce-ios/haloce-ios/build/guest/halo_guest.wasm
+guest module: /Users/runner/work/haloce-ios/haloce-ios/build/guest/halo_guest.wasm (20568 KB)
+=== build/sdl3-configure.log
+--   SDL_RENDER_D3D              (Wanted: OFF): OFF
+--   SDL_RENDER_D3D11            (Wanted: OFF): OFF
+--   SDL_RENDER_D3D12            (Wanted: OFF): OFF
+--   SDL_RENDER_GPU              (Wanted: ON): ON
+--   SDL_RENDER_METAL            (Wanted: ON): ON
+--   SDL_RENDER_VULKAN           (Wanted: ON): ON
+--   SDL_ROCKCHIP                (Wanted: OFF): OFF
+--   SDL_RPATH                   (Wanted: ON): OFF
+--   SDL_RPI                     (Wanted: OFF): OFF
+--   SDL_SNDIO                   (Wanted: OFF): OFF
+--   SDL_SNDIO_SHARED            (Wanted: OFF): OFF
+--   SDL_SSE                     (Wanted: OFF): OFF
+--   SDL_SSE2                    (Wanted: OFF): OFF
+--   SDL_SSE3                    (Wanted: OFF): OFF
+--   SDL_SSE4_1                  (Wanted: OFF): OFF
+--   SDL_SSE4_2                  (Wanted: OFF): OFF
+--   SDL_SYSTEM_ICONV            (Wanted: OFF): OFF
+--   SDL_TESTS                   (Wanted: OFF): OFF
+--   SDL_TESTS_LINK_SHARED       (Wanted: OFF): OFF
+--   SDL_UNINSTALL               (Wanted: ON): ON
+--   SDL_VIRTUAL_JOYSTICK        (Wanted: ON): ON
+--   SDL_VIVANTE                 (Wanted: OFF): OFF
+--   SDL_VULKAN                  (Wanted: ON): ON
+--   SDL_WASAPI                  (Wanted: OFF): OFF
+--   SDL_WAYLAND                 (Wanted: OFF): OFF
+--   SDL_WAYLAND_LIBDECOR        (Wanted: OFF): OFF
+--   SDL_WAYLAND_LIBDECOR_SHARED (Wanted: OFF): OFF
+--   SDL_WAYLAND_SHARED          (Wanted: OFF): OFF
+--   SDL_X11                     (Wanted: OFF): OFF
+--   SDL_X11_SHARED              (Wanted: OFF): OFF
+--   SDL_X11_XCURSOR             (Wanted: OFF): OFF
+--   SDL_X11_XDBE                (Wanted: OFF): OFF
+--   SDL_X11_XFIXES              (Wanted: OFF): OFF
+--   SDL_X11_XINPUT              (Wanted: OFF): OFF
+--   SDL_X11_XRANDR              (Wanted: OFF): OFF
+--   SDL_X11_XSCRNSAVER          (Wanted: OFF): OFF
+--   SDL_X11_XSHAPE              (Wanted: OFF): OFF
+--   SDL_X11_XSYNC               (Wanted: OFF): OFF
+--   SDL_X11_XTEST               (Wanted: OFF): OFF
+--   SDL_XINPUT                  (Wanted: OFF): OFF
+-- 
+--  Build Shared Library: OFF
+--  Build Static Library: ON
+--  Build libraries as Apple Framework: OFF
+-- 
+-- Enabled backends:
+--   Video drivers: dummy offscreen uikit
+--   Render drivers: gpu metal ogl_es2 vulkan
+--   GPU drivers: metal vulkan
+--   Audio drivers: coreaudio disk dummy
+--   Joystick drivers: hidapi mfi virtual
+--   Camera drivers: coremedia dummy
+-- 
+-- If something was not detected, although the libraries
+-- were installed, then make sure you have set the
+-- CMAKE_C_FLAGS and CMAKE_PREFIX_PATH CMake variables correctly.
+-- 
+-- Configuring done (29.3s)
+-- Generating done (0.1s)
+-- Build files have been written to: /Users/runner/work/haloce-ios/haloce-ios/build/sdl3-ios
+=== build/sdl3-build.log
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_endian.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_error.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_events.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_filesystem.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_gamepad.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_gpu.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_guid.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_haptic.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_hidapi.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_hints.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_init.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_intrin.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_iostream.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_joystick.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_keyboard.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_keycode.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_loadso.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_locale.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_log.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_main.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_main_impl.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_messagebox.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_metal.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_misc.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_mouse.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_mutex.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_oldnames.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_opengl.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_opengl_glext.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_opengles.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_opengles2.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_opengles2_gl2.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_opengles2_gl2ext.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_opengles2_gl2platform.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_opengles2_khrplatform.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_pen.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_pixels.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_platform.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_platform_defines.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_power.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_process.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_properties.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_rect.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_render.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_scancode.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_sensor.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_stdinc.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_storage.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_surface.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_system.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_thread.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_time.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_timer.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_touch.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_tray.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_version.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_video.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_vulkan.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/include/SDL3/SDL_revision.h
+-- Installing: /Users/runner/haloce-cache/sdl3-ios-release-3.4.16/share/licenses/SDL3/LICENSE.txt
